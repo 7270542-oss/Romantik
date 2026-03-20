@@ -1,0 +1,10 @@
+{
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
+    { "source": "/politic", "destination": "/politic.html" },
+    { "source": "/soglasie", "destination": "/soglasie.html" },
+    { "source": "/rules", "destination": "/rules.html" }
+  ]
+}
