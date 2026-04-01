@@ -385,26 +385,27 @@ backface-visibility: hidden;
 <style>
 /* === MOBILE FIX: Phone number, forms, popups === */
 
-/* Phone number visible on mobile */
+/* Phone number visible on mobile — centered between burger and Связаться */
 @media screen and (max-width:959px) {
   #rec1843303081 .tn-elem[data-elem-id="1769591595433000005"] {
-    top: 60px !important;
-    left: 10px !important;
-    position: relative !important;
+    top: 15px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
     width: auto !important;
+    z-index: 10 !important;
   }
   #rec1843303081 .tn-elem[data-elem-id="1769591595433000005"] .tn-atom {
     font-size: 16px !important;
+    white-space: nowrap !important;
   }
 }
 
-@media screen and (max-width:639px) {
+@media screen and (max-width:479px) {
   #rec1843303081 .tn-elem[data-elem-id="1769591595433000005"] {
-    top: 55px !important;
-    left: 5px !important;
+    top: 18px !important;
   }
   #rec1843303081 .tn-elem[data-elem-id="1769591595433000005"] .tn-atom {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 }
 
